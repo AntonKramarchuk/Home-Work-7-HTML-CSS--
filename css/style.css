@@ -1,0 +1,307 @@
+.page{
+    background-image: url(/img/fon.png);
+    background-size: cover;
+    font-family: "Ubuntu", sans-serif;
+    
+}
+.form-registration{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.login{
+    background: rgba(0, 0, 0, 0.4);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.text-login{
+    font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 22px;
+
+margin: 0;
+color: #FFFFFF;
+margin-left: 79px;
+margin-top: 18px;
+margin-bottom: 18px;
+box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.52);
+
+}
+.greetings-text{
+
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+color: #FFFFFF;
+margin-left: 25px;
+margin-right: 153px;
+}
+.login{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    border-right: solid rgba(255, 255, 255, 0.9) 1px;
+ 
+}
+.greetings-icon{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.icon-nav{
+    margin-right: 25px;
+}
+.registration{
+    position: relative;
+    background-color: #FFFFFF;
+box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.52);
+width: 444px;
+
+margin-left: auto;
+margin-right: auto;
+
+}
+.rgestration-log{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+padding-top:31px ;
+padding-bottom: 16px;
+}
+
+
+.text-form{
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+color: #434343;
+margin: 0;
+}
+.text-login-form{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+   
+    margin: 0;
+    color: #3CB878;
+     
+}
+.botton-submit{
+    padding: 16px 99px;
+    background: rgba(60, 184, 120, 0.8);
+border-radius: 4px;
+border: 0;
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+color: #FFFFFF;
+margin-bottom: 38px;
+
+
+
+}
+.text-checkbox{
+    display: inline-block;
+    margin-top:  0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.header-forms{
+    width: 324px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 31px; */
+}
+.login-via-facebook{
+    text-decoration: none;
+    align-items: center;
+    
+
+}
+.login-via-google{
+    text-decoration: none;
+}
+.login-via-text-fecebook{
+    text-decoration: none;
+    background: #305DB8;
+    /* font-family: 'Ubuntu'; */
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+display: inline-block;
+color: #FFFFFF;
+padding-top:15px ;
+
+width: 160px;
+height: 48px;
+border-radius: 5px;
+text-align: center;
+margin: 0;
+}
+.login-via-text-google{
+    text-decoration: none;
+    background: #DF4A32;
+    /* font-family: 'Ubuntu'; */
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+display: inline-block;
+color: #FFFFFF;
+padding-top:15px ;
+
+width: 160px;
+height: 48px;
+border-radius: 5px;
+text-align: center;
+margin: 0;
+
+}
+.login-via-logo{
+   font-weight: bolder; 
+  font-size: 25px;
+  border-right: #0a162f27 1px solid;
+  margin-right: 20px;
+  padding-right: 15px;
+}
+
+
+
+
+
+
+.login-via{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.band-text{
+
+   margin: 0 5px;
+
+
+    color: #848484;
+
+}
+.input-form{
+    width: 100%;
+ 
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #F2F2F2;
+border-radius: 4px;
+outline: none;
+
+
+
+}
+.input-form:focus{
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
+border-radius: 4px;
+}
+.main-forms{
+    width: 324px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.band-line{
+    display: flex;
+   
+    margin-bottom: 10px;
+    margin-top: 31px;
+}
+.band{
+    width: 100%;
+    border: 1px solid #F2F2F2;
+   
+
+}
+p{
+    font-family: 'Ubuntu';
+    color:#434343;
+}
+.input-form-checkbox{
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 0px;
+    
+}
+.checkstyle{
+    position: absolute;
+   
+    width: 1em;
+    height: 1em;
+    background-image: url(/img/checkbox_empty.svg);
+}
+
+.input-form-checkbox:checked + .checkstyle{
+    background-image: url(/img/checkbox.svg);
+     
+}
+.text-checkbox-color{
+    color: #3CB878;
+}
+.elemennts-decor{
+    position: absolute;
+background-color: #3CB878;
+ 
+top: 29px;
+left: 0;
+border: 9px #3CB878 solid;
+
+
+}
+
+
+.text-login:hover{
+     color: #236D47;
+}
+
+ .greetings-text-hover:hover{
+    color: #236D47;
+
+}
+ .greetings-text-hover-second:hover{
+    color: #236D47;
+
+}
+ .login-via-facebook:hover .login-via-text-fecebook{
+     background-color: #022263;
+     
+ }.login-via-google:hover .login-via-text-google{
+    background-color: #AB1F09;
+ }
+
+ .text-login-form:hover{
+     text-decoration: underline;
+ }
+ .botton-submit:hover{
+    background-color: #01813F;
+ }
+ .text-checkbox:hover .text-checkbox-color{
+    text-decoration: underline;
+ }
+
+
+ .icon-nav:hover path{
+    fill:#236D47;
+    }
